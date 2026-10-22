@@ -1,25 +1,25 @@
 class Visor < Formula
   desc "Command-line interface for the Visor personal API"
   homepage "https://docs.visorfinance.app"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.3.0/visor-aarch64-apple-darwin.tar.xz"
-      sha256 "706c88cc1ab4ff3ece7e4717b5518460158653f86d7ba47773bda66940456396"
+      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.4.0/visor-aarch64-apple-darwin.tar.xz"
+      sha256 "c3e88408cd85e56c16cddf54921bdd122cf48e2135cb565d9bdf4acdbdb54f72"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.3.0/visor-x86_64-apple-darwin.tar.xz"
-      sha256 "f7f9605c5b99158cc071d428a3ebc9898b6ca688132572474a9fbdeae7959728"
+      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.4.0/visor-x86_64-apple-darwin.tar.xz"
+      sha256 "106bbe55dd21c7624751925f227e94c9abd317c26c6c9ce8e990450f5b2815b6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.3.0/visor-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "42eec5d9e4c6a4cfe86f3a18d1bff5d31fac83a77cf7baaa823be8f650fef09a"
+      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.4.0/visor-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "edeac8f2630ab0da75d7e5ff1abd98486fadeac9b7ee41ffe34ce5f526d5261d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.3.0/visor-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2bcd651ae998fe9322cdd4c40817ceaf00f39c46a21328de3677cbb6939a0094"
+      url "https://github.com/Visor-Finance/visor-cli/releases/download/v0.4.0/visor-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8f93fdfe9a5ec0b1ae54c3a64447d5b6b120f5879b671b8bbbf8b7333f14be50"
     end
   end
   license "MIT"
